@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+hr{
+    margin-top: 30px;
+}
+
+h1{
+    font-size: 47px;
+}
+
+body {
+    font-family: Roboto;
+    font-style: normal;
+    width: auto;
+    height: auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 9px;
+    width: 945px;
+}
+
+
+.block_home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: end;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.block_home~div~p{
+    text-align: end;
+}
+
+nav li{
+    font-family: Roboto;
+    color: #828282;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.block_home_image {
+    text-align: center;
+    margin-top: 34px;
+    margin-bottom: 100px;
+}
+
+.block_about_me{
+    height: 656px;
+    background-color: #F4F4F4;
+}
+
+.block_about_me_text{
+    font-size: 20px;
+    margin-top: -52px;
+    line-height: 23px;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 44px;
+    color: #070707;
+}
+
+nav a{
+    text-decoration: none;
+    color: #828282;
+}
+
+.content-width {
+    width: 945px;
+}
+
+nav a:hover{
+    color: #070707;
+}
+
+.block_about_me_title{
+    text-align: center;
+    font-size: 34px;
+    padding-top: 50px;
+    padding-bottom: 46px;
+}
+
+.block_about_me_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 392px;
+}
+
+.block_skills_title{
+    text-align: center;
+    font-size: 34px;
+}
+
+.block_skills_icon{
+    width: 90px;
+    height: 85px;
+}
+
+.block_skills_icon_photoshop{
+    background: radial-gradient(75.99% 75.64% at 32.94% 22.44%, rgba(52, 54, 78, 0.98) 0%, #0C0824 100%);
+
+}
+
+.block_skills_icon_illustrator{
+    background: radial-gradient(76% 75.63% at 32.97% 22.44%, rgba(66, 51, 37, 0.98) 0%, #1C0A00 100%);
+
+}
+
+.block_skills_icon_after_effects{
+    background: radial-gradient(76% 75.63% at 32.97% 22.42%, rgba(68, 47, 85, 0.98) 0%, #12002C 100%);
+}
+
+/*Figma*******************************************************/
+
+.block_skills_figma_content{
+    margin: auto;
+}
+
+.block_skills_figma_width{
+    width: 29px;
+    height: 29px; 
+}
+
+.block_skills_figma1{
+    background-color: #F24E1E;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.block_skills_figma2{
+    background-color: #FF7262;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.block_skills_figma3{
+    background-color: #A259FF;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.block_skills_figma4{
+    background-color: #1ABCFE;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.block_skills_figma5{
+    background-color: #0ACF83;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+/******************************************************/
+
+.block_skills_content{
+    display: flex;
+    margin: auto;
+    margin-top: 54px;
+    width: 1036px;
+}
+
+.stars{
+    display: flex;
+}
+
+.stars_active{
+    margin-top: 38px;
+    font-size: 27px;
+    letter-spacing: 14px;
+    justify-content: center;
+}
+
+.stars_unactive{
+    color: #E5E5E5;
+}
+
+.block_skills_col{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+
+ul li span{
+    font-size: 14px;
+    margin-top: 24px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #828282;
+}
+
+.figma_extra_margin{
+    margin-top: 56px;
+}
+
+.block_portfolio{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 2087px;
+    margin-top: 190px;
+    background-color: #F4F4F4;
+}
+
+.block_portfolio_image{
+    margin-top: 23px;
+}
+
+.block_portfolio_span{
+    font-size: 18px; 
+    line-height: 21px; 
+    text-decoration: underline;
+    margin-top: 38px;
+}
+
+.footer{
+    text-align: center;
+    height: 150px;
+}
+
+.footer_links{
+    display: flex;
+    width: 343px;
+    margin: 0 auto;
+    justify-content:space-between;
+    margin-top: 33px;
+}
+
+.block_portfolio a{
+    color: #070707;;
+}
+
+.block_about_me p:nth-child(1){
+    padding-top: 46px;
+}
+
+.block_about_me p:nth-child(2){
+    padding-top: 28px; 
+}
+
+.block_about_me p:nth-child(3){
+    padding-top: 25px;
+}
+
+.block_portfolio h3{
+    font-size: 34px;
+}
+
+.block_portfolio_image_margin{
+    margin-top: 88px;
+}
+
+.footer h3{
+    font-size: 34px;
+}
+
